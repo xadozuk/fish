@@ -13,5 +13,8 @@ if status is-interactive
 
     alias cd="z"
 
+    alias ls="eza"
+    alias ll="eza --long"
+
     alias t="~/.tmux/plugins/tmux-session-wizard/bin/t"
 end
