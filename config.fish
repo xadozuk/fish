@@ -2,6 +2,7 @@ fish_add_path ~/.local/bin
 fish_add_path ~/.cargo/bin
 fish_add_path ~/.local/share/bob/nvim-bin
 fish_add_path ~/.terramorph/shims
+fish_add_path ~/dsc
 
 mise activate fish --shims | source
 
@@ -16,5 +17,5 @@ if status is-interactive
     alias ls="eza"
     alias ll="eza --long"
 
-    alias t="~/.tmux/plugins/tmux-session-wizard/bin/t"
+    alias t="~/.config/tmux/plugins/tmux-session-wizard/bin/t"
 end
